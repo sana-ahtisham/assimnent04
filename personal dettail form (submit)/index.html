@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORMS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="submit.html" />
+  </head>
+  <body>
+    <div class="box">
+      <fieldset text-align="center">
+        <legend class="title">
+          Personal Detail
+        </legend>
+        <form action="submit.html">
+          <i class="fa fa-user"></i>
+          <label for="name">
+            First Name: <input type="text" name="Fname" / required></label>
+          <br /><br />
+          <i class="fa fa-user"></i>
+          <label>
+            last Name:
+            <input type="text" name="Lname"/>
+          </label>
+          <br /><br />
+          
+          <p>
+            Select your gender: <br />
+            <input type="radio" name="gender" value="Male" /> Male
+            <input type="radio" name="gender" value="Female" /> Female
+          </p>
+          <br />
+          <i class="fa fa-envelope-open"></i>
+          <label>
+            Email:
+            <input type="email" name="email" /></label
+          ><br /><br />
+          <label for="age">
+            Date Of Birth <input type="date" value="mm/dd/yyyy"
+          /></label>
+          <br /><br />
+          <p>Age limit 18 - 30 can apply</p>
+          <select name="age" value="age">
+            <option value="Age" selected disabled>Age /yrs</option>
+            <option value="01">18 yrs</option>
+            <option value="01">19 yrs</option>
+            <option value="01">20 yrs</option>
+            <option value="01">21 yrs</option>
+            <option value="01">22 yrs</option>
+            <option value="01">23 yrs</option>
+            <option value="01">24 yrs</option>
+            <option value="01">24 yrs</option>
+            <option value="01">25 yrs</option>
+            <option value="01">26 yrs</option>
+            <option value="01">27 yrs</option>
+            <option value="01">28 yrs</option>
+            <option value="01">29 yrs</option>
+            <option value="01">30 yrs</option>
+          </select>
+          <br /><br />
+          <p>
+            Address:
+          </p>
+          <textarea name="Address" col="30" rows="4"> </textarea>
+          <br /><br />
+          <center>
+            <button>submit</button>
+          </center>
+          <br /><br />
+        </form>
+      </fieldset>
+    </div>
+  </body>
+</html>
